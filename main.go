@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	plugin "github.com/calavera/dkvolume"
+	plugin "github.com/docker/go-plugins-helpers"
 )
 
 // Socket address by convention. Docker will look there, so

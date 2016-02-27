@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	plugin "github.com/docker/go-plugins-helpers"
+	plugin "github.com/docker/go-plugins-helpers/volume"
 )
 
 // Socket address by convention. Docker will look there, so
